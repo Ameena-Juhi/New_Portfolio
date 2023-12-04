@@ -1,7 +1,9 @@
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
-    <div className="text-4xl font-bold bg-green-500 font-signature text-center">
-      Allah
+    <div>
+      <NavBar/>
     </div>
   );
 }
